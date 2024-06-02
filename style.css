@@ -106,3 +106,68 @@ header img{
   width: 300px;
   height: 250px;
 }
+
+
+.feature-item{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature-item h1{
+  padding-top: 90px;
+  text-align: center;
+  font-size: 32px;
+  position: relative;
+}
+
+.feature-item h1:before{
+  position: absolute;
+  content: "";
+  background-color: #EC715F;
+  width: 70px;
+  height: 3px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feature-item p{
+  padding-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.feature-item ul li:nth-of-type(2){
+  padding: 0 10px;
+}
+
+
+.feature-list{
+  display: flex;
+  list-style: none;
+  
+}
+
+.feature-list i{
+  font-size: 60px;
+}
+
+.feature-list h3{
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.feature-list p{
+  font-size:16px;
+  text-align: left;
+}
+
+.feature-text{
+  width: 320px;
+}
+
+.feature-text span{
+  text-align: center;
+}
