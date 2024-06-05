@@ -109,6 +109,7 @@ header img{
 
 
 #feature{
+  width: 100%;
   padding-bottom: 90px;
 }
 
@@ -327,4 +328,55 @@ footer p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+  
+  .container{
+    width: 90%;
+  }
+  
+  
+  header{
+    height: 50px;
+    width: 100%;
+  }
+  
+  
+  header img{
+    height: 50px;
+  }
+  
+  
+  .nemu-box{
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #FAFAFA;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+  }
+  
+  
+  .list-bar{
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
+  }
+  
+  .list-bar:first-child{
+    margin-top: 10px;
+  }
+  
+  
+  .nav-list{
+    display: none;
+  }
 }
