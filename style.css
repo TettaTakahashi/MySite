@@ -379,4 +379,21 @@ footer p{
   .nav-list{
     display: none;
   }
+  
+  
+  .main-visual{
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+  }
+  
+  
+  .main-visual-text{
+    width: 90%;
+  }
+  
+  .main-visual-text h1{
+    font-size: 40px;
+  }
 }
