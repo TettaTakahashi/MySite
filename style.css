@@ -63,7 +63,6 @@ header img{
 
 #portfolio{
   width: 100%;
-  height: 850px;
   background-color: #ECEFF1;
 }
 
@@ -100,6 +99,7 @@ header img{
 
 .portfolio-img{
   padding-top: 30px;
+  padding-bottom: 90px;
 }
 
 .portfolio-img img{
@@ -391,9 +391,33 @@ footer p{
   
   .main-visual-text{
     width: 90%;
+    margin: 0 auto;
   }
   
   .main-visual-text h1{
     font-size: 40px;
   }
+  
+  
+  .portfolio-img img{
+    margin: 0 auto;
+  }
+  
+  
+  .portfolio-img-responsive-none{
+    display: none;
+  }
+  
+  
+  .portfolio-img-responsive{
+    display: block;
+    width: 300px;
+    height: 250px;
+  }
+  
+  
+  .portfolio-img-center{
+    padding: 10px 0;
+  }
+  
 }
