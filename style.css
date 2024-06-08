@@ -420,4 +420,14 @@ footer p{
     padding: 10px 0;
   }
   
+  
+  .feature-list{
+    flex-flow: column nowrap;
+  }
+  
+  
+  .feature-text{
+    margin: 0 auto;
+  }
+  
 }
