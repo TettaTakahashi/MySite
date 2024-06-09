@@ -181,7 +181,6 @@ header img{
 
 #profile{
   width: 100%;
-  height: 590px;
   background-color: #ECEFF1;
 }
 
@@ -189,6 +188,7 @@ header img{
 .profile-item{
   width: 1024px;
   margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 .profile-item h1{
@@ -225,6 +225,7 @@ header img{
 .profile-img{
   width: 512px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .profile-img img{
@@ -234,6 +235,7 @@ header img{
 
 .profile-text{
   width: 512px;
+  margin: 0 auto;
 }
 
 .profile-text h2{
@@ -430,4 +432,23 @@ footer p{
     margin: 0 auto;
   }
   
+  
+  
+
+  
+  .profile-detail{
+     flex-flow: column nowrap;
+     text-align: center;
+  }
+  
+  
+  .profile-text{
+    padding-top: 20px;
+  }
+  
+  
+  
+  
+  
+ 
 }
